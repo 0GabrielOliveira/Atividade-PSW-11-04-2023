@@ -1,0 +1,54 @@
+body {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.legal {
+    background-color: rgb(242, 244, 244);
+    width: 100%;
+    height: 98vh;
+    
+}
+.title{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 1.5cm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button-editar{
+    background-color: rgb(244, 97, 90);
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    height: 3vh;
+    width: 10vh;
+    cursor: pointer;
+}
+.button-editar:hover{
+    background-color: rgb(254, 35, 24);
+    color: rgb(233, 176, 176);
+}
+.line1,
+.line2,
+.line3,
+.line4 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 4vh;
+}
+
+input {
+    margin-left: 3vh;
+    border-radius: 5px;
+    border: 0;
+    width: 50vh;
+    height: 3vh;
+
+}
+input:hover{
+background-color: rgb(206, 218, 214);
+}

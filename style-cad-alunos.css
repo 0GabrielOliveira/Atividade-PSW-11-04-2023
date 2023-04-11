@@ -1,0 +1,109 @@
+body {
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(48, 224, 107);
+}
+
+p {
+    margin: 0;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: x-large;
+}
+
+.head {
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(42, 75, 78);
+    text-align: center;
+    font-size: xx-large;
+}
+
+.conteudo {
+    width: 100%;
+    height: 66.8vh;
+    background-color: rgb(48, 224, 107);
+    padding-top: 10px;
+}
+
+.line1,
+.line2,
+.line3,
+.line4 {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+input {
+    border-radius: 5px;
+    border: 0;
+    height: 25px;
+    cursor: pointer;
+}
+
+.rodape {
+    background-color: rgb(42, 75, 78);
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(2, 2, 2);
+
+}
+
+.container-prin {
+    background-color: rgb(48, 224, 107);
+    width: 100%;
+    height: auto;
+}
+
+.caixa {
+    background-color: rgb(48, 224, 107);
+    width: 100%;
+    height: 67.2vh;
+    margin-top: 0;
+}
+
+.input-email,
+.input-senha,
+.input-nome {
+    width: 40vh;
+    height: 5vh;
+    margin-top: 10px;
+}
+
+.input-botão {
+    width: 20vh;
+    height: 4vh;
+    margin-top: 5vh;
+    margin-left: 5vh;
+}
+
+button {
+    cursor: pointer;
+    color: white;
+    font-size: large;
+    border: 0;
+    border-radius: 10px;
+    background-color: green;
+}
+
+input:hover {
+    background-color: rgb(206, 218, 214);
+}
+
+.entar-button:hover {
+    background-color: rgb(25, 172, 25);
+}
+.botao:hover{
+    background-color: rgb(164, 106, 13);
+}
